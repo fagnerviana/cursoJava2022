@@ -11,16 +11,9 @@ public class ParOuImpar {
 		
 		valor=gerador.nextInt();
 		
-		if(valor%2 == 0) {
-			System.out.println("O número grado foi "+valor);
-			System.out.println("O numero é Par");
-			
-		}
-		else {
-			System.out.println("O número grado foi "+valor);
-			System.out.println("O número é Impar");
-		}
-	
+		System.out.println("O valor gerador é "+valor);
+		System.out.println( valor % 2 == 0 ? "Par" : "Impar");
+		
 	}
 
 }
