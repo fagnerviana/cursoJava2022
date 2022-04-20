@@ -14,7 +14,5 @@ public class IfElseALinhado {
 		}else {
 			System.out.println("Entendi ! è noite , então boa noite!");
 		}
-
 	}
-
 }
