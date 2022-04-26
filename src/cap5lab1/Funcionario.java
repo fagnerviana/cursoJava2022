@@ -13,26 +13,25 @@ public class Funcionario {
 	private String cargo;
 	private double salario;
 	
-	
 	void setNome(String nome) {
 		this.nome=nome;
-	}
-	
+	}	
 	void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
-	}
-	
+	}	
 	void setCargo(String cargo) {
 		this.cargo=cargo;
-	}
-	
+	}	
 	void setSalario(double salario) {
 		this.salario=salario;
-	}
+	}	
 
 	@Override
 	public String toString() {
-		return "Nome= " + nome + ",\nSobrenome= " + sobrenome + ",\nCargo= " + cargo + ",\nSalário= " + salario
+		return "Nome= " + nome + ","
+				+ "\nSobrenome= " + sobrenome + ","
+				+ "\nCargo= " + cargo + ","
+				+ "\nSalário= " + salario
 				+"";
 	}
 	

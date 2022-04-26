@@ -6,6 +6,7 @@ public class Cap5_Lab1 {
 		// 2. Declare um objeto do tipo Funcionario e o instancie
 		
 		Funcionario funcionario1 = new Funcionario();
+		
 		funcionario1.setNome("João");
 		funcionario1.setSobrenome("Pedro");
 		funcionario1.setCargo("Programador");
