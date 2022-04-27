@@ -18,12 +18,12 @@ public class Principal {
 		
 		
 		g.setTipoCarro("Carro Utilitario");
-		g.carroPasseio.setCor("Branco");
-		g.carroPasseio.setCv(3.8);
-		g.carroPasseio.setModelo("Renault Boxer");
+		g.utilitario.setCor("Branco");
+		g.utilitario.setCv(3.8);
+		g.utilitario.setModelo("Renault Boxer");
 		
 		System.out.println(g.getTipoCarro());
-		System.out.println(g.carroPasseio);
+		System.out.println(g.utilitario);
 		
 
 	}
